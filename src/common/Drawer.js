@@ -42,7 +42,6 @@ class MainDrawer extends Component {
                         paper:this.props.classes.drawerPaper
                     }}
             >
-                {console.log(this.props)}
 
                 <h1 style={{marginRight:'auto', marginLeft:'auto'}}>test</h1>
                 <IconButton onClick={handleToggle}><Close/></IconButton>

@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core/styles'
 
 const MainAppBar = (props)=>{
 
-    const {isDrawerOpen, handleToggle} = props
+    const {handleToggle} = props
 
 
     return (
