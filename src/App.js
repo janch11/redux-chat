@@ -7,6 +7,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 import MainDrawer from './common/Drawer'
 import AppBar from './common/AppBar'
+import Nav from './common/Nav'
 
 class App extends Component {
 
@@ -35,6 +36,7 @@ class App extends Component {
                             this.handleToggle()
                         }}
                     />
+                    <Nav/>
                 </div>
             </Router>
         )
